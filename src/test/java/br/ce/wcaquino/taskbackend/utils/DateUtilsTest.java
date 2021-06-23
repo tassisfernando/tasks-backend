@@ -13,7 +13,7 @@ public class DateUtilsTest {
 	@Test
 	public void deveRetornarTrueParaDatasFuturas() {
 		LocalDate date = LocalDate.of(2022, 12, 5);
-		Assert.assertFalse(DateUtils.isEqualOrFutureDate(date));
+		Assert.assertTrue(DateUtils.isEqualOrFutureDate(date));
 	}
 	
 	/*
